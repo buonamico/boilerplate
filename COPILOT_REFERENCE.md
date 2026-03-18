@@ -97,47 +97,12 @@ Get a detailed code review:
 ## Project Structure
 
 ```
-unboxing-ai-vscode-and-copilot-deep-dive-8016001/
-├── .github/
-│   ├── copilot-instructions.md          # Main Copilot configuration
-│   ├── instructions/                    # Custom instruction files
-│   │   ├── mcp-development.instructions.md
-│   │   ├── mcp-server.instructions.md
-│   │   └── testing.instructions.md
-│   ├── copilot/                         # Reference documentation
-│   │   ├── tech-stack.md
-│   │   ├── architecture.md
-│   │   └── exemplars.md
-│   ├── prompts/                         # Slash command definitions
-│   │   ├── scaffold-mcp-server.prompt.md
-│   │   ├── validate-mcp-schema.prompt.md
-│   │   ├── generate-mcp-tests.prompt.md
-│   │   ├── review-tool-quality.prompt.md
-│   │   ├── document-mcp-tool.prompt.md
-│   │   └── deploy-mcp-server.prompt.md
-│   ├── skills/                          # Bundled skills
-│   │   ├── mcp-code-review/SKILL.md
-│   │   ├── mcp-testing/SKILL.md
-│   │   ├── mcp-documentation/SKILL.md
-│   │   └── mcp-deployment/SKILL.md
-│   ├── agents/                          # Specialized agents
-│   │   ├── mcp-architect.agent.md
-│   │   ├── mcp-code-review.agent.md
-│   │   ├── mcp-documentation.agent.md
-│   │   └── mcp-testing.agent.md
-│   ├── ISSUE_TEMPLATE.md
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   ├── CODEOWNERS
-│   └── workflows/
-│       └── main.yml
-├── .vscode/
-│   └── settings.json
-├── CONTRIBUTING.md
-├── EVENT_RUNDOWN.md
+.
+├── .git/
+├── .github/                           # GitHub configuration: workflows, issue/PR templates
+├── .gitignore
+├── COPILOT_REFERENCE.md
 ├── LICENSE
-├── NOTICE
-├── PROJECT_README.md
-├── QUICK_REFERENCE.md
 └── README.md
 ```
 
